@@ -1,0 +1,33 @@
+# Data files and outputs
+*.zip
+*.idx
+*.jsonl
+*.csv
+*.txt
+*.tsv
+*.parquet
+*.log
+*.part
+*.bad
+data/
+sec_zips/
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*credentials*.json
+*service-account*.json
+*_token
+google_compute_engine*
+id_rsa*
+id_ed25519*
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.ipynb_checkpoints/
